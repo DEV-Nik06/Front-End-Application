@@ -284,7 +284,8 @@ nav {
 
 
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:768px)
+{
     .mobile-menu,.mobile-menu-exit{
         display: none;
     }
@@ -294,7 +295,8 @@ nav {
         grid-template-columns: 180px auto;
        justify-content: unset;
     }
-    .navbar nav{
+    .navbar nav
+    {
         display: flex;
         justify-content: space-between;
         background: none;
@@ -330,14 +332,19 @@ nav {
             font-weight: bold;
             border-radius: 5em;
             margin-top: -7px;
+            margin-left: 2em;
+            
+        }
 
-            &:hover{
+
+        &:hover{
                 background: var(--primary-color);
                 color: var(--secondary-color);
             }
-        }
     }
+
 }
+
 
 @media only screen and (min-width: 1080px){
     .container{

@@ -273,8 +273,9 @@ nav li a:hover {
     font-weight: bold;
     border-radius: 5em;
     margin-top: -7px;
+    margin-left: 2em;
   }
-  .navbar nav li.go-premium-btn a:hover {
+  .navbar nav:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
   }

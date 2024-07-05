@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
   --primary-color: #007af3;
-  --secondary-color:white;
-  --third-color:#F2F2F2;
-  --forth-color:black;
-  --fifth-color:white;
+  --secondary-color: white;
+  --third-color: #F2F2F2;
+  --forth-color: black;
+  --fifth-color: white;
 }
 
 .dark-theme {
   --primary-color: #007af3;
-  --secondary-color:white;
-  --third-color:#303031;
-  --forth-color:#fff;
-  --fifth-color:#2f2e2e;
+  --secondary-color: white;
+  --third-color: #303031;
+  --forth-color: #fff;
+  --fifth-color: #2f2e2e;
 }
 
 #icon {
@@ -235,7 +235,8 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu, .mobile-menu-exit {
+  .mobile-menu,
+  .mobile-menu-exit {
     display: none;
   }
   .navbar .container {
@@ -275,7 +276,7 @@ nav li a:hover {
     margin-top: -7px;
     margin-left: 2em;
   }
-  .navbar nav:hover {
+  .navbar nav li.go-premium-btn a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
   }
